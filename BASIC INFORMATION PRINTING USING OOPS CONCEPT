@@ -1,0 +1,39 @@
+country="India"
+class ace:
+    col="Ace College"
+    def detail(self,a,b,c,d):
+        self.tot=a+b+c
+        self.avg=(a+b+c)//2
+        self.name=d
+    def display(self):
+        print("1. Name         : ",self.name)
+        print("2. Marks        : ",self.tot)
+        print("3. Average      : ",self.avg)
+        print("4. College Name : ",ace.col)
+        print("5. Country      :",country)
+
+class vbit:
+    col="VBIT College"
+    def details(self,a,b,c,d):
+        self.tot=a+b+c
+        self.avg=(a+b+c)//2
+        self.name=d
+    def displays(self):
+        print("1. Name         : ",self.name)
+        print("2. Marks        : ",self.tot)
+        print("3. Average      : ",self.avg)
+        print("4. College Name : ",vbit.col)
+        print("5. Country      :",country)
+
+
+
+
+
+a=ace()
+a.detail(20,30,40,"Vishal")
+a.display()
+print("   ")
+
+b=vbit()
+b.details(27,43,65,"Karthik")
+b.displays()
