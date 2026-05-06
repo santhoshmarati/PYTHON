@@ -1,0 +1,8 @@
+import qrcode
+qr=qrcode.QRcode()
+a="TVK is rocking"
+qr.add_data(a)
+qr.make(fit=True)
+res=qr.make_image(fill.colour="black",back_colour="white")
+res.save("SANDEEP.png")
+print ("created.sandy")
